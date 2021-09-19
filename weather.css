@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.container {
+  width: 26%;
+}
+.card {
+  border-radius: 50px;
+  background: linear-gradient(to top, rgb(146, 244, 236), rgb(51, 139, 147));
+  box-shadow: 15px 15px 10px #191b1b;
+  text-align: center;
+  padding: 3%;
+}
+.card h4 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+img #icon {
+  width: 20%;
+}
+h6 #weather {
+  text-transform: uppercase;
+}
+button.refresh {
+  display: block;
+  width: 100px;
+  margin: 10px auto;
+  background: transparent;
+  border: 0;
+  color: #2d9eca;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 100px;
+  box-shadow: 10px 4px 10px #7bb8ca, 5px 5px 5px #707070;
+}
+button.refresh:hover {
+  box-shadow: inset 10px 4px 10pc #67c0e9, inset 5px 5px 18px;
+}
